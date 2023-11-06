@@ -1,0 +1,561 @@
+/*reset css*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* thu vien google font*/
+  html,body{
+
+    font-family: 'Oswald', sans-serif;
+
+  }
+/*nav*/
+ .container{
+    background-color:white;
+    width:100%;
+    height:13svh;
+    
+ }
+ .nav__bg{
+
+    margin:auto;
+    width:80%;
+    background-color:white;
+    height:13svh;
+    padding: 20px 5px;
+
+ }
+ .nav__bg .nav__logo a
+ {
+  text-decoration: none;
+ }
+ .nav__bg .nav__logo i
+ {
+  border-radius:50%;
+  background-color: #002146;
+  color: #fdc800;
+  height:39px;
+  width:39px;
+  line-height:30px;
+  padding: 3px 10px;
+ 
+ }
+ .nav__bg .nav__logo span
+ {
+
+  font-size: 27px; 
+  font-weight: bold;
+  color:#002146;
+  padding: 3px 3px;
+  
+ }
+ .nav__bg .nav__content ul{
+
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin:5px;
+
+ }
+ .nav__bg .nav__content li{
+
+ display: inline-block;
+
+ }
+ .nav__bg .nav__content li a{
+
+  margin:10px;
+  font-weight: bold;
+  text-decoration: none;
+  color:#002146;
+  transition:all 0.3s;
+  
+  }
+  .nav__bg .nav__content li a:hover{
+
+    transition:0.5s;
+    background:scroll;
+    color:#fdc800;
+    
+    }
+  /* banner*/
+  .banner {
+    background-image: url("./../img/2.jpg");
+    height: 95vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center 5vh;
+  
+  }
+  /*welcome*/
+  .welcome{
+
+     width:100%;
+     height: 65vh;
+     padding-left:185px;
+     padding-top:5%;
+     
+     
+  }
+  .welcome .welcome__bg{
+      width:80%;
+      height: 95%;
+      margin:auto;
+      padding: 10px 10px;
+      float:left;    
+  }
+.welcome .welcome__bg .welcome__bg__content{
+
+  width:50%;
+  height: 98%;
+  float:left; 
+  box-sizing: border-box;
+  font-size: 15px;
+  text-align: justify;
+  padding-right: 35px;
+}
+.welcome .welcome__bg .welcome__bg__content img{
+
+
+  width:100%;
+  height: 100%;
+  
+}
+
+.welcome .welcome__bg .welcome__bg__content button{
+
+
+  width:120px;
+  height: 40px;
+ 
+  border-style: none;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #fdc800;
+  
+}
+.welcome .welcome__bg .welcome__bg__content button a{
+  
+  text-decoration: none;
+  color:hsl(212deg 100% 14%);
+  transition:all 0.3s;
+}
+.welcome .welcome__bg .welcome__bg__content button a:hover{
+  
+  
+  transition:0.5s;
+  color:aqua;
+}
+/*statistics*/
+.statistics{
+  background-color:hsl(0deg 0% 96%);
+  width:100%;
+  height:20svh;
+  padding-top: 20px;
+  color:hsl(210deg 11% 15%);
+  
+}
+.statistics__bg{
+
+  margin:auto;
+  width:85%;
+  height:15svh;
+  padding: 15px;
+  padding-top:1px;
+
+}
+.statistics .statistics__bg .statistics__title .statistics__content{
+  width:25%;
+  float:left; 
+  box-sizing: border-box;
+  padding: 15px 15px;
+}
+
+.statistics .statistics__bg .statistics__title .statistics__content .statistics__items .statistics__items__text{
+    
+  width:50%;
+  
+  float:left; 
+  box-sizing: border-box;
+  padding-right: 20px;
+  
+}
+.statistics .statistics__bg .statistics__title .statistics__content .statistics__items .statistics__items__text h3{
+    
+  
+  text-align:right;
+  font-size: 38px;
+  
+}
+.statistics .statistics__bg .statistics__title .statistics__content .statistics__items .statistics__items__text p{
+    
+  
+  text-align:justify;
+  font-size: 18px;
+  
+}
+
+/*icon*/
+.icon{
+  
+  width:100%;
+  height:50svh;
+  padding-top: 40px;
+  
+  
+}
+.icon__bg{
+
+  margin:auto;
+  width:75%;
+  height:40svh;
+  padding: 15px 15px;
+ 
+}
+
+.icon .icon__bg .icon__title .icon__content{
+  width:25%;
+  height:17svh;
+  float:left; 
+  box-sizing: border-box;
+  padding: 17px 5px;
+  
+}
+.icon .icon__bg .icon__title .icon__content .icon__items .icon__items__text{
+    
+  width:95%;
+  height:15svh;
+  padding-right: 20px;
+  position:relative;
+  background-color:#002146;
+}
+.icon .icon__bg .icon__title .icon__content .icon__items .icon__items__text i{
+  position:relative;
+  top:20%;
+  left:50%;
+  font-size: 35px;
+  color:#ffffff;
+}
+.icon .icon__bg .icon__title .icon__content .icon__items .icon__items__text span{
+  position:relative;
+  top:30%;
+  left:45%;
+  color:#ffffff;
+  
+}
+.icon .icon__bg .icon__title .icon__content .icon__items .icon__items__text a{
+  transition:all 0.3s;
+  text-decoration: none;
+}
+.icon .icon__bg .icon__title .icon__content .icon__items .icon__items__text a:hover{
+  transition:0.5s;
+  color:aqua;
+
+  
+}
+
+/*post*/
+.post{
+  
+  width:100%;
+  height:120svh;
+  padding-top: 40px;
+  background-color: hsl(0deg 0% 96%);
+  
+}
+.post__bg{
+
+  margin:auto;
+  width:75%;
+  height:100svh;
+  padding: 10px 15px;
+  
+}
+.post .post__bg .post__title .post__content{
+  width:50%;
+  height: 90svh;
+  float:left; 
+  box-sizing: border-box;
+  padding-right: 60px;
+  padding-top: 25px;
+  
+  
+}
+.post .post__bg .post__title .post__content .post__items{
+  padding-bottom: 25px;
+
+  
+  
+}
+.post .post__bg .post__title .post__content hr{
+  color:hsl(0deg 0% 93%);
+
+  
+  
+}
+.post .post__bg .post__title .post__content .post__items .post__items__text{
+  width:50%;
+  height: 25svh;
+  float:left; 
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-right: 15px;
+  background-color:hsl(0deg 0% 100%) ;
+}
+.post .post__bg .post__title .post__content .post__content__latest{
+  color:hsl(233deg 25% 14%);
+  
+}
+.post .post__bg .post__title .post__content .post__items .post__items__text h4{
+  color:hsl(233deg 25% 14%);
+  
+}
+.post .post__bg .post__title .post__content .post__items .post__items__text h5{
+  color:hsl(0deg 0% 58%);
+  
+}
+.post .post__bg .post__title .post__content .post__items .post__items__text p{
+  color:hsl(0deg 0% 35%);
+  
+}
+.post .post__bg .post__title .post__content .post__items .post__items__text img{
+  width:100%;
+  border-radius: 5px;
+  
+}
+.post .post__bg .post__title .post__content .post__items__button {
+  
+  
+  position:relative;
+  
+  
+}
+.post .post__bg .post__title .post__content .post__items__button button {
+  
+  width:120px;
+  height: 40px;
+ 
+  border-style: none;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #fdc800;
+  position:absolute;
+  top:160px;
+  right:20px;
+  text-align: center;
+  
+}
+.post .post__bg .post__title .post__content .post__items__button button a{
+  
+  text-decoration: none;
+  color:hsl(212deg 100% 14%);
+  transition:all 0.3s;
+}
+.post .post__bg .post__title .post__content .post__items__button button a:hover{
+  
+  
+  transition:0.5s;
+  color:aqua;
+}
+
+.post .post__bg .post__title .post__content h2{
+  color:hsl(233deg 25% 14%);
+  
+}
+.post .post__bg .post__title .post__content a img{
+  transition:all 0.3s;
+  
+}
+.post .post__bg .post__title .post__content a img:hover{
+  transition:all 0.3s;
+  
+}
+.post .post__bg .post__title .post__content .post__events{
+  width:95%;
+  height: 35svh;
+  
+ 
+}
+.post .post__bg .post__title .post__content .post__events .post__events__text{
+  width:50%;
+  height: 33svh;
+  float:left; 
+  box-sizing: border-box;
+  padding-top: 28px;
+  
+  background-color:hsl(0deg 0% 100%) ;
+  text-align: center;
+  position:relative;
+  
+}
+  
+.post .post__bg .post__title .post__content .post__events .post__events__text .card {
+  width: 95px;
+  height: 3px;
+  position:absolute;
+  left:35px;
+  
+}
+.post .post__bg .post__title .post__content .post__events .post__events__text .card__top {
+  background-color:hsl(47deg 100% 50%);
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  color:hsl(233deg 25% 14%);
+  
+}
+.post .post__bg .post__title .post__content .post__events .post__events__text .card__bottom {
+  background-color:hsl(212deg 100% 14%);
+  padding: 10px 20px;
+  border-radius: 0 0 5px 5px;
+  color:hsl(0deg 0% 100%);
+}
+.post .post__bg .post__title .post__content .post__events .post__events__text .card__top h3{
+  
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.post .post__bg .post__title .post__content .post__events .post__events__text .card__top h4{
+  
+  
+  text-align: center;
+}
+.post .post__bg .post__title .post__content .post__events .post__events__text .card__bottom p{
+  
+  text-align: center;
+  color:hsl(0deg 0% 100%)
+  
+}
+.post .post__bg .post__title .post__content .post__events .post__events__text h4{
+  text-align: justify;
+  color:hsl(233deg 25% 14%);
+}.post .post__bg .post__title .post__content .post__events .post__events__text p {
+  text-align: justify;
+  color: hsl(0deg 0% 35%);
+}.post .post__bg .post__title .post__content .post__events .post__events__text h5{
+  text-align: justify;
+  color:hsl(212deg 100% 14%);
+}
+.post .post__bg .post__title .post__content .post__events .post__events__text h5 span{
+  border-style:outset;
+  border-color:hsl(0deg 0% 74%);
+  border-left-width: 1 px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+}
+.post .post__bg .post__title .post__content .post__events__button {
+  
+  
+  position:relative;
+  
+  
+}
+.post .post__bg .post__title .post__content .post__events__button button {
+  
+  width:120px;
+  height: 40px;
+ 
+  border-style: none;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #fdc800;
+  position:absolute;
+  top:5px;
+  right:20px;
+  text-align: center;
+  
+}
+.post .post__bg .post__title .post__content .post__events__button button a{
+  
+  text-decoration: none;
+  color:hsl(212deg 100% 14%);
+  transition:all 0.3s;
+}
+.post .post__bg .post__title .post__content .post__events__button button a:hover{
+  
+  
+  transition:0.5s;
+  color:aqua;
+}
+/*contact*/
+.contact{
+
+  width:100%;
+  height: 60vh;
+  
+  background-color:hsl(212deg 100% 14%);
+  
+  padding: 25px 15px;
+}
+.contact .contact__bg{
+   width:80%;
+   height: 95%;
+   
+   margin:auto;
+  padding: 10px 15px;
+}
+.contact .contact__bg .contact__bg__content{
+
+width:95%;
+height: 55%;
+
+
+}
+.contact .contact__bg hr{
+
+    
+  color:hsl(0deg 0% 27%);
+  
+  
+  }
+.contact .contact__bg .contact__bg__content .contact__items{
+
+  width:33.33%;
+  height: 25svh;
+  float:left; 
+  box-sizing: border-box;
+  color:hsl(0deg 0% 100%);
+  
+  
+  }
+  .contact .contact__bg .contact__bg__content .contact__items i{
+
+    
+    color:hsl(47deg 100% 50%);
+    
+    }
+.contact .contact__bg .contact__bg__content .contact__items li a{
+
+    
+      text-decoration: none;
+      color:hsl(0deg 0% 100%);
+       }
+.contact .contact__bg .contact__bg__content .contact__items ul li{
+
+    
+      line-height: 2;
+      list-style-type:none;
+      
+      }
+.contact .contact__bg .contact__bg__content .contact__items ul li a{
+
+    
+       text-decoration: none;
+       color:hsl(0deg 0% 100%);
+        }
+
+.contact .contact__bg .contact__bg__reserved{
+
+  width:95%;
+  height: 10svh;
+  
+  text-align: justify;
+  padding-right: 35px;
+  
+  color:hsl(0deg 0% 100%);
+  }
+  
